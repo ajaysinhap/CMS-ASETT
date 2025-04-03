@@ -1,0 +1,215 @@
+.conatiner {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
+}
+.element {
+  max-width: 56rem; /* 896px */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem; /* 16px */
+  padding-right: 1rem; /* 16px */
+  padding-top: 3rem; /* 48px */
+  padding-bottom: 3rem; /* 48px */
+}
+
+@media (min-width: 640px) {
+  .element {
+    padding-left: 1.5rem; /* 24px */
+    padding-right: 1.5rem; /* 24px */
+  }
+}
+
+@media (min-width: 1024px) {
+  .element {
+    padding-left: 2rem; /* 32px */
+    padding-right: 2rem; /* 32px */
+  }
+}
+
+.custom-element {
+  transform: none;
+  border-radius: 0.5rem; /* 8px */
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+
+.custom-element:hover {
+  box-shadow: 0 35px 70px rgba(0, 0, 0, 0.3);
+}
+
+.custom-header {
+  padding-left: 2rem; /* 32px */
+  padding-right: 2rem; /* 32px */
+  padding-top: 1.5rem; /* 24px */
+  padding-bottom: 1.5rem; /* 24px */
+  border-bottom: 1px solid #e5e7eb; /* Light gray color */
+  background-image: linear-gradient(to right, #f9fafb, #ffffff);
+}
+
+.custom-header h1 {
+  font-size: 1.875rem;
+  color: #2e6da4;
+  line-height: 1.25;
+}
+
+.header-h1 {
+  font-size: 1.25rem;
+  color: rgba(46, 109, 164, 0.8);
+  margin-top: 0.25rem;
+  font-weight: 600;
+}
+
+.disclaimer {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fef2f2;
+  border-bottom: 1px solid #f5a9a9;
+}
+
+.disclaimer-text {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.disclaimer-text-svg {
+  height: 1.25rem;
+  width: 1.25rem;
+  color: rgb(239, 68, 68);
+}
+.disclaimer-text-p {
+  color: #e53e3e;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.description {
+  color: red !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.paragraph {
+  padding: 1.5rem;
+}
+.para-header {
+  color: rgb(75, 85, 99);
+  margin-bottom: 1.5rem;
+  line-height: 1.625;
+}
+.para-link {
+  color: #2e6da4;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #bfdbfe;
+  transition: all 0.3s ease;
+}
+
+.para-link:hover {
+  color: #1d4b76;
+  text-decoration-color: #2e6da4;
+}
+
+.complaint-info {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #2e6da4;
+  color: white;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.complaint-info:hover {
+  background-color: #1d4b76;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.complaint-info:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #2e6da4, 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+  padding-left: 2rem; 
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-image: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
+}
+
+.button {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  color: #374151;
+  background-color: white;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.button:hover {
+  background-color: #f9fafb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #2e6da4, 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.para-info {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  background-color: #2e6da4;
+  color: white;
+  border-radius: 50%;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.para-heading {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.para-heading:hover {
+  background-color: rgba(219, 234, 254, 0.5);
+}
+.paragraph p {
+  color: rgb(55, 65, 81);
+  font-weight: 500;
+}
+
+.cms-info{
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: rgba(219, 234, 254, 0.5);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(46, 109, 164, 0.2);
+}
+
+.cms-description {
+  color: rgb(75, 85, 99);
+  line-height: 1.625;
+}
+
+
+
+
+
+
+

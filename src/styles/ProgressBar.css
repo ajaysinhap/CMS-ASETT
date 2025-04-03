@@ -1,0 +1,45 @@
+.custom-border {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.flex-item {
+  flex: 1;
+  min-width: 120px;
+}
+
+.condition-div {
+  background-color: #f0fdf4;
+  color: #047857;
+  border: 1px solid #10b981;
+}
+.progress-true {
+  background-color: #eff6ff;
+  color: #9d5200;
+  border: 1px solid #fbbf24;
+}
+.progress-false {
+  background-color: #f9fafb;
+  color: #6b7280;
+  border: 1px solid #e5e7eb;
+}
+.custom-nowrap {
+  border-bottom: 2px solid;
+  white-space: nowrap;
+}
+.custom-text-center {
+  position: relative;
+  text-align: center;
+  z-index: 10;
+}
+
+.custom-nav {
+  position: relative;
+  padding: 0.75rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .custom-nav {
+    font-size: 0.875rem;
+  }
+}

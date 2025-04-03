@@ -1,0 +1,27 @@
+.main-div{
+    display: flex;
+    gap: 1rem
+}
+.footer{
+    margin-top: 1rem;
+}
+.custom-text {
+    color: #2e6da4;
+    transition: color 0.2s ease;
+    font-weight: 500;
+  }
+  
+  .custom-text:hover {
+    color: #1d4b76;
+  }
+
+  .text-gray {
+    color: rgb(209, 213, 219);
+  }
+  .custom-style {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  

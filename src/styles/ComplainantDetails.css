@@ -1,0 +1,222 @@
+.text-red {
+  color: red;
+}
+.conatiner {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
+}
+.custom-text {
+  color: rgb(55, 65, 81);
+  font-weight: 500;
+}
+
+.element {
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+  .element {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .element {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.main-element {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 0.75rem;
+}
+
+.form-container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+  .form-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.custom-header {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+  color: #2e6da4;
+  margin-bottom: 2rem;
+}
+
+.custom-class {
+  background-color: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border-width: 2px;
+  border-color: #f3f4f6;
+  transition-property: all;
+  transition-duration: 200ms;
+}
+
+@media (min-width: 640px) {
+  .custom-class {
+    padding: 2rem;
+  }
+}
+
+.custom-class:hover {
+  border-color: rgba(46, 109, 164, 0.3);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; 
+}
+
+.checkbox {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.description {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: rgb(107, 114, 128);
+}
+
+.organization-container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .organization-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+.personal-container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .personal-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+.address-container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .address-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .contact-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+/* Base styles for input fields */
+.input-field {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Input field focus styles */
+.input-field:focus {
+  border-color: #2e6da4;
+  outline: none;
+  box-shadow: 0 0 4px rgba(46, 109, 164, 0.3);
+}
+
+/* Disabled state */
+.input-field:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+  border-color: #ddd;
+}
+
+/* Placeholder styling */
+.input-field::placeholder {
+  color: #888;
+  opacity: 0.8;
+}
+
+/* Label styling */
+.input-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+/* Spacing between multiple inputs */
+.input-group {
+  margin-bottom: 16px;
+}
+
+/* Error state */
+.input-field.error {
+  border-color: #e53e3e;
+  background-color: #fff5f5;
+}
+
+.input-field.error:focus {
+  box-shadow: 0 0 4px rgba(229, 62, 62, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .input-field {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+
+
+
